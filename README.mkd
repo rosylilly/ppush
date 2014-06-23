@@ -1,0 +1,19 @@
+# ppush
+
+```
+Usage:
+  ppush [pids]
+
+  -a="": app token
+  -m="Process executed": push message
+  -u="": user token
+```
+
+## Usage
+
+```
+$ long-time-process ; ppush -m "long-time process executed"
+or
+$ long-time-process &
+$ ppush [long-time-process pid]
+```
